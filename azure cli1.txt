@@ -54,3 +54,5 @@ az network lb probe create -g user-uxnozhlkcmdp --lb-name MyLb -n Probe1 --proto
 az network lb create --name royLoadBalancer --sku basic --location westus
 
 az network lb probe create --lb-name royLoadBalancer -n Probe1 --protocol http --port 80 --path /
+
+after auto integration
